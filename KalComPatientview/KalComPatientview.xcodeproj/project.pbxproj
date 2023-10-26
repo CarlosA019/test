@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846BF72D2AE9D80900D4076C /* KalComPatientviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BF72C2AE9D80900D4076C /* KalComPatientviewApp.swift */; };
+		846BF72F2AE9D80900D4076C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BF72E2AE9D80900D4076C /* ContentView.swift */; };
+		846BF7312AE9D80C00D4076C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846BF7302AE9D80C00D4076C /* Assets.xcassets */; };
+		846BF7342AE9D80C00D4076C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846BF7332AE9D80C00D4076C /* Preview Assets.xcassets */; };
+		846BF73E2AE9D80C00D4076C /* KalComPatientviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BF73D2AE9D80C00D4076C /* KalComPatientviewTests.swift */; };
+		846BF7482AE9D80C00D4076C /* KalComPatientviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BF7472AE9D80C00D4076C /* KalComPatientviewUITests.swift */; };
+		846BF74A2AE9D80C00D4076C /* KalComPatientviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BF7492AE9D80C00D4076C /* KalComPatientviewUITestsLaunchTests.swift */; };
+		846BF7592AE9DD4E00D4076C /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BF7582AE9DD4E00D4076C /* LaunchScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846BF73A2AE9D80C00D4076C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846BF7212AE9D80900D4076C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846BF7282AE9D80900D4076C;
+			remoteInfo = KalComPatientview;
+		};
+		846BF7442AE9D80C00D4076C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846BF7212AE9D80900D4076C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846BF7282AE9D80900D4076C;
+			remoteInfo = KalComPatientview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846BF7292AE9D80900D4076C /* KalComPatientview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalComPatientview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846BF72C2AE9D80900D4076C /* KalComPatientviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalComPatientviewApp.swift; sourceTree = "<group>"; };
+		846BF72E2AE9D80900D4076C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		846BF7302AE9D80C00D4076C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846BF7332AE9D80C00D4076C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		846BF7392AE9D80C00D4076C /* KalComPatientviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalComPatientviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846BF73D2AE9D80C00D4076C /* KalComPatientviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalComPatientviewTests.swift; sourceTree = "<group>"; };
+		846BF7432AE9D80C00D4076C /* KalComPatientviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalComPatientviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846BF7472AE9D80C00D4076C /* KalComPatientviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalComPatientviewUITests.swift; sourceTree = "<group>"; };
+		846BF7492AE9D80C00D4076C /* KalComPatientviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalComPatientviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		846BF7582AE9DD4E00D4076C /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846BF7262AE9D80900D4076C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BF7362AE9D80C00D4076C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BF7402AE9D80C00D4076C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846BF7202AE9D80900D4076C = {
+			isa = PBXGroup;
+			children = (
+				846BF72B2AE9D80900D4076C /* KalComPatientview */,
+				846BF73C2AE9D80C00D4076C /* KalComPatientviewTests */,
+				846BF7462AE9D80C00D4076C /* KalComPatientviewUITests */,
+				846BF72A2AE9D80900D4076C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846BF72A2AE9D80900D4076C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846BF7292AE9D80900D4076C /* KalComPatientview.app */,
+				846BF7392AE9D80C00D4076C /* KalComPatientviewTests.xctest */,
+				846BF7432AE9D80C00D4076C /* KalComPatientviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846BF72B2AE9D80900D4076C /* KalComPatientview */ = {
+			isa = PBXGroup;
+			children = (
+				846BF72C2AE9D80900D4076C /* KalComPatientviewApp.swift */,
+				846BF72E2AE9D80900D4076C /* ContentView.swift */,
+				846BF7582AE9DD4E00D4076C /* LaunchScreen.swift */,
+				846BF7302AE9D80C00D4076C /* Assets.xcassets */,
+				846BF7322AE9D80C00D4076C /* Preview Content */,
+			);
+			path = KalComPatientview;
+			sourceTree = "<group>";
+		};
+		846BF7322AE9D80C00D4076C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				846BF7332AE9D80C00D4076C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		846BF73C2AE9D80C00D4076C /* KalComPatientviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				846BF73D2AE9D80C00D4076C /* KalComPatientviewTests.swift */,
+			);
+			path = KalComPatientviewTests;
+			sourceTree = "<group>";
+		};
+		846BF7462AE9D80C00D4076C /* KalComPatientviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846BF7472AE9D80C00D4076C /* KalComPatientviewUITests.swift */,
+				846BF7492AE9D80C00D4076C /* KalComPatientviewUITestsLaunchTests.swift */,
+			);
+			path = KalComPatientviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846BF7282AE9D80900D4076C /* KalComPatientview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846BF74D2AE9D80C00D4076C /* Build configuration list for PBXNativeTarget "KalComPatientview" */;
+			buildPhases = (
+				846BF7252AE9D80900D4076C /* Sources */,
+				846BF7262AE9D80900D4076C /* Frameworks */,
+				846BF7272AE9D80900D4076C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KalComPatientview;
+			productName = KalComPatientview;
+			productReference = 846BF7292AE9D80900D4076C /* KalComPatientview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846BF7382AE9D80C00D4076C /* KalComPatientviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846BF7502AE9D80C00D4076C /* Build configuration list for PBXNativeTarget "KalComPatientviewTests" */;
+			buildPhases = (
+				846BF7352AE9D80C00D4076C /* Sources */,
+				846BF7362AE9D80C00D4076C /* Frameworks */,
+				846BF7372AE9D80C00D4076C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846BF73B2AE9D80C00D4076C /* PBXTargetDependency */,
+			);
+			name = KalComPatientviewTests;
+			productName = KalComPatientviewTests;
+			productReference = 846BF7392AE9D80C00D4076C /* KalComPatientviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846BF7422AE9D80C00D4076C /* KalComPatientviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846BF7532AE9D80C00D4076C /* Build configuration list for PBXNativeTarget "KalComPatientviewUITests" */;
+			buildPhases = (
+				846BF73F2AE9D80C00D4076C /* Sources */,
+				846BF7402AE9D80C00D4076C /* Frameworks */,
+				846BF7412AE9D80C00D4076C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846BF7452AE9D80C00D4076C /* PBXTargetDependency */,
+			);
+			name = KalComPatientviewUITests;
+			productName = KalComPatientviewUITests;
+			productReference = 846BF7432AE9D80C00D4076C /* KalComPatientviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846BF7212AE9D80900D4076C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					846BF7282AE9D80900D4076C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					846BF7382AE9D80C00D4076C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 846BF7282AE9D80900D4076C;
+					};
+					846BF7422AE9D80C00D4076C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 846BF7282AE9D80900D4076C;
+					};
+				};
+			};
+			buildConfigurationList = 846BF7242AE9D80900D4076C /* Build configuration list for PBXProject "KalComPatientview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846BF7202AE9D80900D4076C;
+			productRefGroup = 846BF72A2AE9D80900D4076C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846BF7282AE9D80900D4076C /* KalComPatientview */,
+				846BF7382AE9D80C00D4076C /* KalComPatientviewTests */,
+				846BF7422AE9D80C00D4076C /* KalComPatientviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846BF7272AE9D80900D4076C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BF7342AE9D80C00D4076C /* Preview Assets.xcassets in Resources */,
+				846BF7312AE9D80C00D4076C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BF7372AE9D80C00D4076C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BF7412AE9D80C00D4076C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846BF7252AE9D80900D4076C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BF72F2AE9D80900D4076C /* ContentView.swift in Sources */,
+				846BF72D2AE9D80900D4076C /* KalComPatientviewApp.swift in Sources */,
+				846BF7592AE9DD4E00D4076C /* LaunchScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BF7352AE9D80C00D4076C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BF73E2AE9D80C00D4076C /* KalComPatientviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BF73F2AE9D80C00D4076C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BF74A2AE9D80C00D4076C /* KalComPatientviewUITestsLaunchTests.swift in Sources */,
+				846BF7482AE9D80C00D4076C /* KalComPatientviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846BF73B2AE9D80C00D4076C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846BF7282AE9D80900D4076C /* KalComPatientview */;
+			targetProxy = 846BF73A2AE9D80C00D4076C /* PBXContainerItemProxy */;
+		};
+		846BF7452AE9D80C00D4076C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846BF7282AE9D80900D4076C /* KalComPatientview */;
+			targetProxy = 846BF7442AE9D80C00D4076C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		846BF74B2AE9D80C00D4076C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846BF74C2AE9D80C00D4076C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846BF74E2AE9D80C00D4076C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KalComPatientview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alcala.carlos.KalComPatientview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846BF74F2AE9D80C00D4076C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KalComPatientview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alcala.carlos.KalComPatientview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846BF7512AE9D80C00D4076C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alcala.carlos.KalComPatientviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalComPatientview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KalComPatientview";
+			};
+			name = Debug;
+		};
+		846BF7522AE9D80C00D4076C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alcala.carlos.KalComPatientviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalComPatientview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KalComPatientview";
+			};
+			name = Release;
+		};
+		846BF7542AE9D80C00D4076C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alcala.carlos.KalComPatientviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KalComPatientview;
+			};
+			name = Debug;
+		};
+		846BF7552AE9D80C00D4076C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alcala.carlos.KalComPatientviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KalComPatientview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846BF7242AE9D80900D4076C /* Build configuration list for PBXProject "KalComPatientview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BF74B2AE9D80C00D4076C /* Debug */,
+				846BF74C2AE9D80C00D4076C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846BF74D2AE9D80C00D4076C /* Build configuration list for PBXNativeTarget "KalComPatientview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BF74E2AE9D80C00D4076C /* Debug */,
+				846BF74F2AE9D80C00D4076C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846BF7502AE9D80C00D4076C /* Build configuration list for PBXNativeTarget "KalComPatientviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BF7512AE9D80C00D4076C /* Debug */,
+				846BF7522AE9D80C00D4076C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846BF7532AE9D80C00D4076C /* Build configuration list for PBXNativeTarget "KalComPatientviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BF7542AE9D80C00D4076C /* Debug */,
+				846BF7552AE9D80C00D4076C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846BF7212AE9D80900D4076C /* Project object */;
+}
